@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetLogsReader", "FleetLogsReader\FleetLogsReader.csproj", "{A87E9681-7631-4AB8-9FDE-EF2D96BB5535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogReader", "LogReader\LogReader.csproj", "{3E2576DB-1252-48D5-A6C0-4365D98052B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestLogReader", "UnitTestLogReader\UnitTestLogReader.csproj", "{44BA7E6B-5A9E-4F9F-A565-1903F81421E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetLogs.Model", "FleetLogs.Model\FleetLogs.Model.csproj", "{D7909B75-1B73-4DD4-9875-E316823B323F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetLogs.Data", "FleetLogs.Data\FleetLogs.Data.csproj", "{CEA94FB3-CF9C-488E-8949-66867A631665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FleetLogs.Archive", "FleetLogs.Archive\FleetLogs.Archive.csproj", "{FF2EB9AB-8C83-4173-8329-45F8570F5CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A87E9681-7631-4AB8-9FDE-EF2D96BB5535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87E9681-7631-4AB8-9FDE-EF2D96BB5535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87E9681-7631-4AB8-9FDE-EF2D96BB5535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87E9681-7631-4AB8-9FDE-EF2D96BB5535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2576DB-1252-48D5-A6C0-4365D98052B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2576DB-1252-48D5-A6C0-4365D98052B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2576DB-1252-48D5-A6C0-4365D98052B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2576DB-1252-48D5-A6C0-4365D98052B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BA7E6B-5A9E-4F9F-A565-1903F81421E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BA7E6B-5A9E-4F9F-A565-1903F81421E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BA7E6B-5A9E-4F9F-A565-1903F81421E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BA7E6B-5A9E-4F9F-A565-1903F81421E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7909B75-1B73-4DD4-9875-E316823B323F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7909B75-1B73-4DD4-9875-E316823B323F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7909B75-1B73-4DD4-9875-E316823B323F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7909B75-1B73-4DD4-9875-E316823B323F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA94FB3-CF9C-488E-8949-66867A631665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA94FB3-CF9C-488E-8949-66867A631665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA94FB3-CF9C-488E-8949-66867A631665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA94FB3-CF9C-488E-8949-66867A631665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2EB9AB-8C83-4173-8329-45F8570F5CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2EB9AB-8C83-4173-8329-45F8570F5CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2EB9AB-8C83-4173-8329-45F8570F5CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2EB9AB-8C83-4173-8329-45F8570F5CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
